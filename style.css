@@ -97,6 +97,7 @@ i {
     font-size: 21px;
     font-weight: bold;
     position: relative;
+    cursor: pointer;
 }
 
 .header_social__list {
@@ -577,11 +578,11 @@ i {
     align-content: space-between;
 }
 
-.label {
+.reservations_container_form__label {
     letter-spacing: 0.03em;
 }
 
-.field {
+.reservations_container_form__field {
     width: 200px;
     height: 35px;
     margin-top: 5px;
@@ -598,7 +599,7 @@ i {
     letter-spacing: 0.01em;
 }
 
-.field:focus {
+.reservations_container_form__field:focus {
     outline-color: rgb(200,159,45);
 }
 
@@ -612,7 +613,6 @@ i {
     margin-left: 1px;
     border-style: hidden;
     background-color: rgb(200,161,49);
-    cursor: pointer;
 }
 
 .footer {
