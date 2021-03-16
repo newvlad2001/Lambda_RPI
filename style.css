@@ -283,6 +283,7 @@ i {
 }
 
 .ingredients_list {
+    list-style-type: none;
     width: 390px;
     display: flex;
     flex-direction: row;
